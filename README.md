@@ -183,7 +183,7 @@ The alignment sheet applies the same nudge to its outlines but not to its ruler,
 
 ## Verification
 
-- `npm test` runs 50 tests (`node:test`): geometry of every registry sheet (inside the page, no overlaps, count = columns x rows), start and nudge, pagination (`ceil((start-1+N)/perSheet)` pages and the blank count), best-before across month ends, CSV parsing, label fit on every sheet, `validate()` on every root, and a measurement of rendered PDFs.
+- `npm test` runs 51 tests (`node:test`): geometry of every registry sheet (inside the page, no overlaps, count = columns x rows), start and nudge, pagination (`ceil((start-1+N)/perSheet)` pages and the blank count), best-before across month ends, CSV parsing, label fit on every sheet, `validate()` on every root, and a measurement of rendered PDFs.
 - `npm run verify` renders every sheet and its alignment page, reads the drawing operators back out of the PDF and compares the first and last label corners with the registry (tolerance 0.05 mm).
 - Builds are deterministic: running `npm run build` twice produces byte-identical PDFs, PNGs, HTML and email.
 
