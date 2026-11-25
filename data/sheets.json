@@ -1,0 +1,65 @@
+{
+  "_note": "Geometry as published in the manufacturers' template specs, in the unit given per sheet. Confirm against the box before a big print run. cornerRadius is an ESTIMATE (die shapes are not part of the published geometry), so check it too.",
+  "sheets": [
+    {
+      "id": "L7160",
+      "brand": "Avery",
+      "description": "Address labels, 21 per A4 sheet",
+      "unit": "mm",
+      "page": "A4",
+      "label": { "width": 63.5, "height": 38.1 },
+      "grid": { "columns": 3, "rows": 7 },
+      "margin": { "top": 15.15, "left": 7.2 },
+      "pitch": { "x": 66.04, "y": 38.1 },
+      "cornerRadius": 2.5
+    },
+    {
+      "id": "L7163",
+      "brand": "Avery",
+      "description": "Address labels, 14 per A4 sheet",
+      "unit": "mm",
+      "page": "A4",
+      "label": { "width": 99.1, "height": 38.1 },
+      "grid": { "columns": 2, "rows": 7 },
+      "margin": { "top": 15.15, "left": 4.65 },
+      "pitch": { "x": 101.6, "y": 38.1 },
+      "cornerRadius": 2.5
+    },
+    {
+      "id": "L7651",
+      "brand": "Avery",
+      "description": "Mini labels, 65 per A4 sheet",
+      "unit": "mm",
+      "page": "A4",
+      "label": { "width": 38.1, "height": 21.2 },
+      "grid": { "columns": 5, "rows": 13 },
+      "margin": { "top": 10.7, "left": 4.65 },
+      "pitch": { "x": 40.64, "y": 21.2 },
+      "cornerRadius": 1.5
+    },
+    {
+      "id": "5160",
+      "brand": "Avery",
+      "description": "Address labels, 30 per US Letter sheet",
+      "unit": "in",
+      "page": "Letter",
+      "label": { "width": 2.625, "height": 1 },
+      "grid": { "columns": 3, "rows": 10 },
+      "margin": { "top": 0.5, "left": 0.1875 },
+      "pitch": { "x": 2.75, "y": 1 },
+      "cornerRadius": 0.0625
+    },
+    {
+      "id": "5163",
+      "brand": "Avery",
+      "description": "Shipping labels, 10 per US Letter sheet",
+      "unit": "in",
+      "page": "Letter",
+      "label": { "width": 4, "height": 2 },
+      "grid": { "columns": 2, "rows": 5 },
+      "margin": { "top": 0.5, "left": 0.15625 },
+      "pitch": { "x": 4.1875, "y": 2 },
+      "cornerRadius": 0.0625
+    }
+  ]
+}

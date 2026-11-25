@@ -1,0 +1,37 @@
+{
+  "name": "gumline",
+  "version": "1.0.0",
+  "description": "Gumline: one CSV in, label sheets out. Print-ready PDFs that line up on real off-the-shelf label sheets, built with Hyper Elements.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsx src/build.ts",
+    "check": "tsx src/check.ts",
+    "previews": "tsx scripts/previews.ts",
+    "verify": "tsx scripts/verify.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/fraunces": "^5.2.9",
+    "@fontsource/ibm-plex-mono": "^5.2.8",
+    "@hyper-elements/react": "^0.5.2",
+    "@react-pdf/renderer": "^4.9.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "fontkit": "^3.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@hyper-elements/email-clients": "^0.5.3",
+    "@types/fontkit": "^2.0.8",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "playwright-core": "^1.57.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

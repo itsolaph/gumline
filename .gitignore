@@ -1,0 +1,7 @@
+node_modules/
+out/
+.brief/
+PROGRESS.md
+STOP-verify.txt
+*.log
+.DS_Store
